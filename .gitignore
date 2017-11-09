@@ -1,2 +1,5 @@
 node_modules
 last.sql
+temp.sql
+yarn.lock
+.DS_Store
