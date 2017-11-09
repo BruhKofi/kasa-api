@@ -6,11 +6,12 @@
     "author": "Victor Asante-Kyei",
     "description": "Express API server for kasa app",
     "scripts": {
-        "start": "babel-node src/index.js"
+        "start": "nodemon --exec babel-node -- src/index.js"
     },
     "devDependencies": {
         "babel-cli": "^6.26.0",
-        "babel-preset-env": "^1.6.1"
+        "babel-preset-env": "^1.6.1",
+        "nodemon": "^1.12.1"
     },
     "dependencies": {
         "express": "^4.16.2"
